@@ -15,13 +15,13 @@ header {
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   color: #fff;
 }
 
 main {
   width: 100%;
-  min-width: 100vh;
+  min-height: 100vh;
   background: linear-gradient(#18acfe, #0166e1);
 
   display: flex;
@@ -32,9 +32,9 @@ main {
 
 main form {
   margin-top: 5%;
-  width: 50%; /* 35% */
+  width: 50%; /* 35%  */
   height: 75vh;
-  background: #383c42;
+  background-color: #383c42;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px
     rgba(0, 0, 0, 0.25);
   border-radius: 18px;
@@ -62,7 +62,7 @@ main form .inputs-container input {
   outline: 0;
   border-radius: 12px;
 
-  font-size: 1rem;
+  font-size: 16px;
   color: #312e42;
 
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
@@ -105,10 +105,12 @@ main form .password-infos {
 
 main form .password-infos a {
   transition: 0.2s ease-in-out;
+  text-decoration: none;
 }
 
 main form .password-infos a:hover {
   color: #18acfe;
+  text-decoration: none;
 }
 
 main form button {
@@ -122,7 +124,7 @@ main form button {
   font-size: 1.6em;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 main form button:hover {
@@ -170,20 +172,25 @@ main form .links-container aside i {
 main form .links-container aside .google {
   color: #e34133;
 }
+
 main form .links-container aside .google:hover {
   background-color: #e34133;
   color: #fff;
 }
+
 main form .links-container aside .linkedin {
   color: #0a66c2;
 }
+
 main form .links-container aside .linkedin:hover {
   background-color: #0a66c2;
   color: #fff;
 }
+
 main form .links-container aside .facebook {
   color: #14a0f9;
 }
+
 main form .links-container aside .facebook:hover {
   background-color: #14a0f9;
   color: #fff;
@@ -212,7 +219,7 @@ main form footer span {
 
 main form footer a {
   font-weight: 600;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 main form footer a:hover {
