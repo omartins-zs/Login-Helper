@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 header {
@@ -31,7 +32,7 @@ main {
 
 main form {
   margin-top: 5%;
-  width: 35%;
+  width: 50%; /* 35% */
   height: 75vh;
   background: #383c42;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px
@@ -91,4 +92,62 @@ main form .password-container i {
 
 main form .password-container #eye {
   display: none;
+}
+
+main form .password-infos {
+  width: 90%;
+  margin-top: 3%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main form .password-infos a {
+  transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover {
+  color: #18acfe;
+}
+
+main form button {
+  background-color: #18acfe;
+  width: 90%;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  margin-top: 10%;
+  font-size: 1.6em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+main form button:hover {
+  background: #fff;
+  color: #18acfe;
+}
+
+main form .links-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+main form .links-container span {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+main form .links-container aside {
+  margin-top: 5%;
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
