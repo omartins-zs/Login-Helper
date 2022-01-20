@@ -151,3 +151,18 @@ main form .links-container aside {
   align-items: center;
   justify-content: space-around;
 }
+
+main form .links-container aside i {
+  font-size: 1.6em;
+  background-color: #fff;
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
