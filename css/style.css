@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #ffff;
 }
 
 header {
@@ -22,6 +23,7 @@ header h1 {
 main {
   width: 100%;
   min-height: 100vh;
+  /* background: linear-gradient(#800080, #e10196); */
   background: linear-gradient(#18acfe, #0166e1);
 
   display: flex;
@@ -32,11 +34,10 @@ main {
 
 main form {
   margin-top: 5%;
-  width: 50%; /* 35%  */
+  width: 35%;
   height: 75vh;
   background-color: #383c42;
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px
-    rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
   padding: 2%;
 
@@ -46,7 +47,7 @@ main form {
 }
 
 main form .inputs-container {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 100%;
 
   display: flex;
@@ -54,7 +55,7 @@ main form .inputs-container {
   align-items: center;
 }
 
-main form .inputs-container input {
+main form .inputs-container input{
   width: 90%;
   height: 45px;
   padding: 8px 15px;
@@ -68,7 +69,7 @@ main form .inputs-container input {
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
-main form .inputs-container input:focus {
+main form .inputs-container input:focus{
   box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
 }
 
@@ -105,12 +106,10 @@ main form .password-infos {
 
 main form .password-infos a {
   transition: 0.2s ease-in-out;
-  text-decoration: none;
 }
 
 main form .password-infos a:hover {
   color: #18acfe;
-  text-decoration: none;
 }
 
 main form button {
@@ -137,7 +136,7 @@ main form .links-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 main form .links-container span {
@@ -198,7 +197,7 @@ main form .links-container aside .facebook:hover {
 
 main form footer {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
 
   display: flex;
   flex-direction: column;
