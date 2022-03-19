@@ -1,6 +1,6 @@
-
-<h1 align="center">Login Helper</h1>
-
+<h1 align="center"><img align="left" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg">
+Login Helper<img align="right" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg"></h1>
+<br>
 
 <p align="center">
   <i>Tela com um formulário para login</i>
