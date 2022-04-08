@@ -9,16 +9,14 @@ Login Helper<img align="right" height="40" width="45" src="https://github.com/de
 
 </div>
 
-
-
-
-
-
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=blue&style=for-the-badge"/>
 </p>
 
-
+<h1 align="center">
+    <img  src="./gif/Login-Helper.gif" />
+</h1>
+<br>
 
 ## 🚀 Tecnologias
 
